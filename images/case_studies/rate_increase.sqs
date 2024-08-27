@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<square-sketch>
+    <figure>
+        <node id="#0" location="7 15"/>
+        <node id="#1" location="-12 10"/>
+        <node id="#2" location="-9 12"/>
+        <linear id="#3">
+            <start node="#1" control="0 2"/>
+            <end node="#2" control="-1 0"/>
+        </linear>
+        <node id="#4" location="-6 14"/>
+        <text id="#5" origin="-13 7.292" alignment="1 0" style="bold">Expected</text>
+        <node id="#6" location="-1 9"/>
+        <text id="#7" origin="-13 12.489" alignment="0 -1" rotation="-90">Renewal Rate</text>
+        <text id="#8" origin="-10.376 15.757">Rate Increase</text>
+        <node id="#9" location="-13 15"/>
+        <node id="#10" location="-5 15"/>
+        <linear id="#11">
+            <start node="#9"/>
+            <end node="#10" style="arrow"/>
+        </linear>
+        <linear id="#12">
+            <start node="#4" control="0 -2"/>
+            <end node="#2" control="1 0"/>
+        </linear>
+        <text id="#13" origin="-13 8.292" alignment="1 0" style="bold">Renewal vs. Rate</text>
+        <group id="#14" shapes="#5 #13"/>
+        <node id="#15" location="-13 9"/>
+        <linear id="#16">
+            <start node="#9"/>
+            <end node="#15" style="arrow"/>
+        </linear>
+        <group id="#17" shapes="#3 #4 #2 #7 #8 #1 #11 #12 #10 #14 #15 #16 #9"/>
+        <node id="#18" location="6 14"/>
+        <node id="#19" location="3 12"/>
+        <linear id="#20">
+            <start node="#18" control="0 -2"/>
+            <end node="#19" control="1 0"/>
+        </linear>
+        <node id="#21" location="0 14"/>
+        <linear id="#22">
+            <start node="#21" control="0 -2"/>
+            <end node="#19" control="-1 0"/>
+        </linear>
+        <node id="#23" location="-1 15"/>
+        <linear id="#24">
+            <start node="#23"/>
+            <end node="#0" style="arrow"/>
+        </linear>
+        <linear id="#25">
+            <start node="#23"/>
+            <end node="#6" style="arrow"/>
+        </linear>
+        <text id="#26" origin="-1 7.292" alignment="1 0" style="bold">Actual</text>
+        <text id="#27" origin="-1 12.489" alignment="0 -1" rotation="-90">Renewal Rate</text>
+        <text id="#28" origin="-1 8.292" alignment="1 0" style="bold">Renewal vs. Rate</text>
+        <text id="#29" origin="1.624 15.757">Rate Increase</text>
+        <group id="#30" shapes="#26 #28"/>
+    </figure>
+</square-sketch>

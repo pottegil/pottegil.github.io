@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" width="469.313" height="211.174" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style type="text/css">
+            svg { stroke-linecap: round; stroke-linejoin: round; fill-rule: evenodd }
+            text { font-family: Roboto; font-size: 0.717px }
+            .stroke { stroke: #666666; stroke-width: 0.07; fill: none }
+            .fill { fill: #666666 }
+        </style>
+    </defs>
+    <g transform="scale(22.311) translate(0 0.208)">
+        <g class="fill">
+            <text x="1.245" y="0.547" style="font-weight: bold">Expected</text>
+            <g transform="translate(1 5.489) rotate(-90)">
+                <text x="0" y="-0.245" text-anchor="middle">Renewal Rate</text>
+            </g>
+            <text x="3.624" y="9.012" text-anchor="middle">Rate Increase</text>
+            <text x="1.245" y="1.547" style="font-weight: bold">Renewal vs. Rate</text>
+            <text x="13.245" y="0.547" style="font-weight: bold">Actual</text>
+            <g transform="translate(13 5.489) rotate(-90)">
+                <text x="0" y="-0.245" text-anchor="middle">Renewal Rate</text>
+            </g>
+            <text x="13.245" y="1.547" style="font-weight: bold">Renewal vs. Rate</text>
+            <text x="15.624" y="9.012" text-anchor="middle">Rate Increase</text>
+        </g>
+        <g class="stroke">
+            <path d="M 2 3 C 2 5, 4 5, 5 5"/>
+            <g>
+                <line x1="1" y1="8" x2="9" y2="8"/>
+                <line x1="9" y1="8" x2="8.522" y2="7.852"/>
+                <line x1="9" y1="8" x2="8.522" y2="8.148"/>
+            </g>
+            <path d="M 8 7 C 8 5, 6 5, 5 5"/>
+            <g>
+                <line x1="1" y1="8" x2="1" y2="2"/>
+                <line x1="1" y1="2" x2="0.852" y2="2.478"/>
+                <line x1="1" y1="2" x2="1.148" y2="2.478"/>
+            </g>
+            <path d="M 20 7 C 20 5, 18 5, 17 5"/>
+            <path d="M 14 7 C 14 5, 16 5, 17 5"/>
+            <g>
+                <line x1="13" y1="8" x2="21" y2="8"/>
+                <line x1="21" y1="8" x2="20.522" y2="7.852"/>
+                <line x1="21" y1="8" x2="20.522" y2="8.148"/>
+            </g>
+            <g>
+                <line x1="13" y1="8" x2="13" y2="2"/>
+                <line x1="13" y1="2" x2="12.852" y2="2.478"/>
+                <line x1="13" y1="2" x2="13.148" y2="2.478"/>
+            </g>
+        </g>
+    </g>
+</svg>
